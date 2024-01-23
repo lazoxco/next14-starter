@@ -1,7 +1,7 @@
-import React from 'react';
+import styles from './blog.module.css';
 
 const BlogPage = () => {
-  return <div>BlogPage</div>;
+  return <div className={styles.container}>BlogPage</div>;
 };
 
 export default BlogPage;
